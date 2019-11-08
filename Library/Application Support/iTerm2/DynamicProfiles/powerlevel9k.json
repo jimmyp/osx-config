@@ -1,0 +1,15 @@
+{
+  "Profiles": [
+    {
+      "Name": "jims",
+      "Guid": "d99282c3-d3d7-441b-ac10-66c727f2b2ad",
+      "ASCII Anti Aliased": true,
+      "ASCII Ligatures": true,
+      "Draw Powerline Glyphs": true,
+      "Normal Font": "HackNerdFontComplete-Regular 12",
+      "Thin Strokes": 3,
+      "Unicode Normalization": 0,
+      "Unicode Version": 9
+    }
+  ]
+}
