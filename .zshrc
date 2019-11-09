@@ -8,10 +8,34 @@ export ZSH="/Users/jim/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+POWERLEVEL9K_CUSTOM_WIFI_SIGNAL="zsh_wifi_signal"
+POWERLEVEL9K_CUSTOM_WIFI_SIGNAL_BACKGROUND="white"
+POWERLEVEL9K_CUSTOM_WIFI_SIGNAL_FOREGROUND="black"
+zsh_wifi_signal(){
+        local output=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -I)
+        local airport=$(echo $output | grep 'AirPort' | awk -F': ' '{print $2}')
+
+        if [ "$airport" = "Off" ]; then
+                local color='%F{black}'
+                echo -n "%{$color%}Wifi Off"
+        else
+                local ssid=$(echo $output | grep ' SSID' | awk -F': ' '{print $2}')
+                local speed=$(echo $output | grep 'lastTxRate' | awk -F': ' '{print $2}')
+                local color='%F{black}'
+
+                [[ $speed -gt 100 ]] && color='%F{black}'
+                [[ $speed -lt 50 ]] && color='%F{red}'
+
+                echo -n "%{$color%}$speed Mbps \uf1eb%{%f%}" # removed char not in my PowerLine font
+        fi
+}
+
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time custom_wifi_signal)
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
