@@ -1,4 +1,7 @@
 {
-    "window.zoomLevel": 1,
     "editor.renderWhitespace": "all",
+    "editor.fontFamily": "'Hack Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.colorCustomizations": {
+        "terminal.ansiBlack":  "#1E1E1E"
+      }
 }
