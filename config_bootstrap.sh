@@ -9,3 +9,7 @@ brew budle
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# install saved vscode extensions
+cat vscode-extensions.list | xargs -L 1 code --install-extension
+
+
