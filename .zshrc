@@ -124,3 +124,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# generate gitignore files
+function gi() { curl -sLw n https://www.gitignore.io/api/$@ ;}
