@@ -1,7 +1,0 @@
-<application>
-  <component name="DimensionService">
-    <location key="FileChooserDialogImpl.0.0.2560.1600@192dpi" x="856" y="262" />
-    <location key="WELCOME_SCREEN.0.0.2560.1600@192dpi" x="1278" y="738" />
-    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.2560.1600@192dpi" x="656" y="292" />
-  </component>
-</application>
