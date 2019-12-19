@@ -8,6 +8,7 @@
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
   <component name="RiderCodeCompletionExtraSettings">
-    <option name="allowToCompleteWithWhitespace" value="false" />
+    <option name="hasNotifiedAboutCompletingWithEnter" value="true" />
+    <option name="hasNotifiedAboutCompletingWithSpace" value="true" />
   </component>
 </application>
