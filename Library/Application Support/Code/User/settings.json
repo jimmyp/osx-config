@@ -4,5 +4,12 @@
     "workbench.colorCustomizations": {
         "terminal.ansiBlack":  "#1E1E1E"
       },
-      "editor.minimap.enabled": false
+      "editor.minimap.enabled": false,
+      "git.enableSmartCommit": true,
+      "window.zoomLevel": 1,
+      "typescript.updateImportsOnFileMove.enabled": "always",
+      "workbench.activityBar.visible": false,
+      "window.openFilesInNewWindow": "default",
+      "workbench.editor.enablePreviewFromQuickOpen": false,
+      "javascript.updateImportsOnFileMove.enabled": "always"
 }
