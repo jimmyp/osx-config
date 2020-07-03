@@ -8,8 +8,13 @@
       "git.enableSmartCommit": true,
       "window.zoomLevel": 1,
       "typescript.updateImportsOnFileMove.enabled": "always",
-      "workbench.activityBar.visible": false,
+      "workbench.activityBar.visible": true,
       "window.openFilesInNewWindow": "default",
       "workbench.editor.enablePreviewFromQuickOpen": false,
-      "javascript.updateImportsOnFileMove.enabled": "always"
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "git.autofetch": true,
+      "editor.fontSize": 18,
+      "terminal.integrated.fontSize": 15,
+      "workbench.editor.enablePreview": false,
+      "search.useReplacePreview": false
 }
