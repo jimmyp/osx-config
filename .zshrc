@@ -32,7 +32,7 @@ zsh_wifi_signal(){
 
 POWERLEVEL9K_MODE="nerdfont-complete"
 
-source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+source /Users/jim/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time custom_wifi_signal)
@@ -133,3 +133,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(pyenv init -)"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
