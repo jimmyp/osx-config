@@ -3,3 +3,13 @@
 [user]
 	name = Jim Pelletier
 	email = mail@thejimmyp.com
+
+[alias]
+	## This section of aliases below from https://gist.github.com/robmiller/6018582
+
+	# Get the current branch name (not so useful in itself, but used in
+	# other aliases)
+	branch-name = "!git rev-parse --abbrev-ref HEAD"
+	# Push the current branch to the remote "origin", and set it to track
+	# the upstream branch
+	publish = "!git push -u origin $(git branch-name)"
