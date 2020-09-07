@@ -6,7 +6,7 @@
       },
       "editor.minimap.enabled": false,
       "git.enableSmartCommit": true,
-      "window.zoomLevel": 1,
+      "window.zoomLevel": 0,
       "typescript.updateImportsOnFileMove.enabled": "always",
       "workbench.activityBar.visible": true,
       "window.openFilesInNewWindow": "default",
@@ -16,5 +16,13 @@
       "editor.fontSize": 18,
       "terminal.integrated.fontSize": 15,
       "workbench.editor.enablePreview": false,
-      "search.useReplacePreview": false
+      "search.useReplacePreview": false,
+      "omnisharp.enableEditorConfigSupport": true,
+      "omnisharp.enableRoslynAnalyzers": true,
+      "cSpell.userWords": [
+        "Dtos",
+        "Organisations",
+        "organisation"
+      ],
+      "yaml.format.singleQuote": true
 }
