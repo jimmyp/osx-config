@@ -6,23 +6,30 @@
       },
       "editor.minimap.enabled": false,
       "git.enableSmartCommit": true,
-      "window.zoomLevel": 0,
+      "window.zoomLevel": 1,
       "typescript.updateImportsOnFileMove.enabled": "always",
       "workbench.activityBar.visible": true,
       "window.openFilesInNewWindow": "default",
       "workbench.editor.enablePreviewFromQuickOpen": false,
       "javascript.updateImportsOnFileMove.enabled": "always",
       "git.autofetch": true,
-      "editor.fontSize": 18,
       "terminal.integrated.fontSize": 15,
       "workbench.editor.enablePreview": false,
       "search.useReplacePreview": false,
       "omnisharp.enableEditorConfigSupport": true,
       "omnisharp.enableRoslynAnalyzers": true,
       "cSpell.userWords": [
+        "Dimitri",
         "Dtos",
         "Organisations",
+        "POCs",
+        "browserslist",
+        "crossorigin",
+        "errored",
         "organisation"
       ],
-      "yaml.format.singleQuote": true
+      "yaml.format.singleQuote": true,
+      "cSpell.enableFiletypes": [
+        "!jsonc"
+      ]
 }
