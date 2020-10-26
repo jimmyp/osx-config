@@ -26,7 +26,8 @@
         "browserslist",
         "crossorigin",
         "errored",
-        "organisation"
+        "organisation",
+        "serialised"
       ],
       "yaml.format.singleQuote": true,
       "cSpell.enableFiletypes": [
