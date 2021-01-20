@@ -23,11 +23,13 @@
         "Dtos",
         "Organisations",
         "POCs",
+        "Postgres",
         "browserslist",
         "crossorigin",
         "errored",
         "organisation",
-        "serialised"
+        "serialised",
+        "serialiser"
       ],
       "yaml.format.singleQuote": true,
       "cSpell.enableFiletypes": [
@@ -35,5 +37,8 @@
       ],
       "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-      }
+      },
+      "omnisharp.disableMSBuildDiagnosticWarning": true,
+      "workbench.colorTheme": "Default Dark+",
+      "omnisharp.enableDecompilationSupport": true
 }
