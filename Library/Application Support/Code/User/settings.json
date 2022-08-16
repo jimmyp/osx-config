@@ -13,7 +13,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.autofetch": true,
   "terminal.integrated.fontSize": 15,
-  "workbench.editor.enablePreview": false,
   "search.useReplacePreview": false,
   "omnisharp.enableEditorConfigSupport": true,
   "omnisharp.enableRoslynAnalyzers": true,
@@ -32,7 +31,9 @@
     "serialiser"
   ],
   "yaml.format.singleQuote": true,
-  "cSpell.enableFiletypes": ["!jsonc"],
+  "cSpell.enableFiletypes": [
+    "!jsonc"
+  ],
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -55,7 +56,9 @@
   "redhat.telemetry.enabled": false,
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "go.toolsManagement.autoUpdate": true,
-  "codestream.serverUrl": "https://api.codestream.com"
+  "codestream.serverUrl": "https://api.codestream.com",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.enablePreview": false
 }
