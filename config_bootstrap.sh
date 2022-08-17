@@ -6,9 +6,6 @@
 # install all brew packages and casks
 brew bundle
 
-# install nvm as it's not really that compatible with homebrew
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
-
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
