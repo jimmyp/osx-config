@@ -5,7 +5,8 @@
 
 # install all brew packages and casks
 brew bundle
-
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/jim/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
