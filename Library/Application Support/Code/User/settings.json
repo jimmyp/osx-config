@@ -60,5 +60,8 @@
   "go.toolsManagement.autoUpdate": true,
   "codestream.serverUrl": "https://api.codestream.com",
   "editor.inlineSuggest.enabled": true,
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "editor.rulers": [
+    100
+  ]
 }
